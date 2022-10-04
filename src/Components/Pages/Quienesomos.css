@@ -1,0 +1,30 @@
+.center3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='2000' preserveAspectRatio='none' viewBox='0 0 2000 2000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1536%26quot%3b)' fill='none'%3e%3crect width='2000' height='2000' x='0' y='0' fill='url(%23SvgjsLinearGradient1537)'%3e%3c/rect%3e%3cpath d='M2000 0L1050.21 0L2000 743.41z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1050.21 0L2000 743.41L2000 1332.07L468.7900000000001 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M468.78999999999996 0L2000 1332.07L2000 1348.34L311.73999999999995 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M311.74 0L2000 1348.34L2000 1778.7199999999998L191.56 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 2000L607.18 2000L0 1845.26z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 1845.26L607.18 2000L718.8 2000L0 1795.74z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 1795.74L718.8 2000L1148.1799999999998 2000L0 1301.6100000000001z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 1301.6100000000001L1148.1799999999998 2000L1624.81 2000L0 615.5800000000002z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1536'%3e%3crect width='2000' height='2000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1537'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    margin-top: 0.5rem;
+}
+
+.logo{
+    width: 50vh;
+}
+
+.textHead{
+    font-family: cookie;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.textMain{
+    font-family: cookie;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+
+
+
