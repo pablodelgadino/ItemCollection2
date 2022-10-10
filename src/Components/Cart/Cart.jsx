@@ -19,6 +19,7 @@ const Cart = () => {
     
     const { cart, totalPrice, clear } = useCartContext();
     const [values, setValues] = useState(initialState);
+	const [generatedOrderId, setgeneratedOrderId] = useState ('');
 
     const handleOnChange = (e) =>{
         const {value, name} = e.target;
@@ -36,6 +37,7 @@ const Cart = () => {
         const ordersCollection = collection(db,'orders');
         addDoc(ordersCollection, order)
         .then (({id}) => console.log(id) );
+	setgeneratedOrderId();
         alertEnd();
      
     }
@@ -63,7 +65,7 @@ const Cart = () => {
     function alertEnd() {
         Swal.fire({
             icon: 'success',
-            title: 'Su pedido fue generado exitosamente',
+            title: 'Su pedido fue generado exitosamente , su id de pedido es: ' + `${generatedOrderId}`,
             showConfirmButton: false,
             timer: 2000
           }) 
